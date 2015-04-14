@@ -1,0 +1,119 @@
+/* @group Mapas */
+
+.mapa-lugar-detalle {
+    min-height: 200px;
+    max-width: 1280px;
+    margin: 0 32px;
+}
+
+.map-info-window  {
+    line-height:1.35;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.mapa-eventos .map-info-window  {
+    min-height: 90px;
+    min-width: 180px;
+    padding-top: 15px;
+}
+
+.map-info-window h1 {
+    font-size: 18px;
+}
+
+.map-info-window .event-date {
+    color: #28c8fe;
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    float: left;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 38px;
+    letter-spacing: 0px;
+    width: 58px;
+    margin-left: 11px;
+}
+
+.dzstooltip .map-info-window .event-date {
+    margin-left: 0px;
+}   
+
+.map-info-window .event-day {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.map-info-window .event-title {
+    font-size: 16px;
+    font-weight: normal;
+    color: #4a4a4a;
+    white-space: normal;
+}
+
+.map-info-window .event-subtitle {
+    font-size: 12px;
+    color: #979696;
+}
+
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .mapa-lugar-detalle {
+        min-height: 300px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .mapa-lugar-detalle {
+        min-height: 400px;
+    }
+    
+    .mapa-eventos .map-info-window  {
+        min-height: 122px;
+        min-width: 300px;
+        padding-top: 21px;
+    }
+
+    .map-info-window .event-date {
+        font-size: 27px;
+        line-height: 38px;
+        width: 108px;
+    }
+    
+    .map-info-window .event-day {
+        font-size: 72px;
+    }
+    
+    .map-info-window .event-title {
+        font-size: 18px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .mapa-lugar-detalle {
+        min-height: 500px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .mapa-lugar-detalle {
+        margin: 0 auto;
+    }
+}
+/* @end */
